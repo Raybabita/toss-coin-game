@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+}
+
+.app-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-image {
+  height: 120px;
+  width: 120px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 500;
+  color: #a35200;
+}
+
+.sub-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #334155;
+}
+.results-card {
+  display: flex;
+  margin: 10px;
+}
+.toss-button {
+  border: none;
+  background-color: #f9d423;
+  border-radius: 8px;
+  color: #a35200;
+  margin: 10px;
+  padding-top: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.result {
+  margin-right: 10px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #334155;
+}
